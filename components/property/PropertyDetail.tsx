@@ -1,5 +1,5 @@
 import React from 'react';
-import { Property } from '@/types/property';
+import { Property } from '../../types/property';
 import ReviewSection from './ReviewSection';
 
 interface PropertyDetailProps {
@@ -47,7 +47,7 @@ const PropertyDetail: React.FC<PropertyDetailProps> = ({ property }) => {
         <div>
           <div className="bg-white p-4 rounded-lg shadow mb-6">
             <h2 className="text-xl font-semibold mb-4">Location</h2>
-            <p className="text-gray-700">{property.address}</p>
+            <p className="text-gray-700">{property.location.address}</p>
             <div className="mt-4 h-48 bg-gray-200 rounded">
               {/* Map would go here */}
               <div className="flex items-center justify-center h-full text-gray-500">

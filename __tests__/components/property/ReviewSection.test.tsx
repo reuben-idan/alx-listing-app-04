@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from '@testing-library/react';
 import axios from 'axios';
-import ReviewSection from '../ReviewSection';
+import ReviewSection from '@/components/property/ReviewSection';
 
 // Mock axios
 export const mockReviews = [
