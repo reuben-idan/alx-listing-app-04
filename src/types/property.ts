@@ -1,14 +1,16 @@
 export interface Property {
   id: string;
   title: string;
-  location: string;
+  description: string;
+  address: string;
   price: number;
-  image: string;
+  imageUrl: string;
   rating: number;
   reviewCount: number;
   type: string;
-  beds: number;
-  baths: number;
+  bedrooms: number;
+  bathrooms: number;
   area: number;
+  amenities: string[];
   featured?: boolean;
 }
